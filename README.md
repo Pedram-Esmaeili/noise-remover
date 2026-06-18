@@ -2,6 +2,14 @@
 
 Clean noisy video recordings by removing background sounds (birds, wind, chatter, machinery) and keeping **one target speaker** — without cutting out parts of their voice.
 
+## Example result
+
+Sample output after processing:
+
+<video src="result.mp4" controls width="100%"></video>
+
+[Download `result.mp4`](result.mp4)
+
 ## What it does
 
 This tool processes a video file through a 7-step AI pipeline:
@@ -251,6 +259,7 @@ remove_noise/
 ├── process_audio_v2.py   # V2: SepFormer separation pipeline
 ├── requirements.txt      # Python dependencies
 ├── .env.example          # HF token template
+├── result.mp4            # Example processed output
 ├── README.md             # This file
 └── .gitignore
 ```
